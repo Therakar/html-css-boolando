@@ -7,9 +7,8 @@
 /* DEBUG */
 
 .col{
-    background-color:aquamarine;
-    height: 650px;
-    width: 50px;
+    background-color:;
+    
 }
 
 
@@ -80,8 +79,9 @@ a:hover{
     height: 30px;
 }
 
-.icon header {
-    text-align: right;
+.icon-header {
+    padding-left: 50px;
+    
 }
 
 .header-row{
@@ -102,20 +102,33 @@ a:hover{
     text-decoration: none;
 }
 /* MAIN */
-.container{
-    display: flex;
-    
+.new-price, .old-price{
+    display: inline-block;
 }
 
-.main-row{
+.new-price{
+    color: red;
+}
+
+.old-price{
+    text-decoration: line-through;
+}
+.row{
     display: flex;
-    max-width: 1425px;
+    width: 100%;
+    margin: 25px 0;
+    justify-content: space-between;
 
 }
 
 .col{
-    display: inline-block;
-    width: 30%%;
-    
+    width: 33.33%;
+    margin: 0 35px;
+
 }
+img{
+    height: 600px;
+}
+
+
 /* FOOTER */
