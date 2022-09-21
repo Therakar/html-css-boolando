@@ -4,10 +4,21 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* DEBUG */
+
+.col{
+    background-color:aquamarine;
+    height: 650px;
+    width: 50px;
+}
+
+
+
 
 /* COMMON */
 .container{
-    
+    max-width: 1450px;
+    display: flex;
     margin: auto;
 }
 
@@ -35,10 +46,10 @@ a:hover{
 .header-top{
     padding: 20px 0;
     background-color: #FF6900;
-    position: fixed;
+    /* position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    right: 0; */
     box-shadow: rgb(36, 52, 70) 0px 1px 2px 0px;
 }
 
@@ -73,7 +84,7 @@ a:hover{
     text-align: right;
 }
 
-.col-logo{
+.header-row{
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -91,5 +102,20 @@ a:hover{
     text-decoration: none;
 }
 /* MAIN */
+.container{
+    display: flex;
+    
+}
 
+.main-row{
+    display: flex;
+    max-width: 1425px;
+
+}
+
+.col{
+    display: inline-block;
+    width: 30%%;
+    
+}
 /* FOOTER */
