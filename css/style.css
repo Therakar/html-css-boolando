@@ -17,10 +17,13 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
-a {
+a{
     text-decoration: none;
-    font-weight: bold;
     color: white;
+}
+
+.main-nav{
+    font-weight: bold;
 }
 
 a:hover{
@@ -168,12 +171,13 @@ main{
 .heart-off{
     position: absolute;
     top: 2%;
-    right: 2%;
+    right: 0;
     padding: 20px;
     background-color: #fff;
     font-size: 20px;
 }
 
+/* HOVER */
 .heart-on{
     display: none;
     position: absolute;
@@ -195,4 +199,49 @@ main{
     display: none;
 }
 
+
+
+
+.img-on{
+    display: none;
+    position: absolute;
+}
+
+.img-off:hover .img-on {
+    display: block;
+    
+}
+
+.img-off:hover .img-off{
+    display: none;
+}
+
+
 /* FOOTER */
+
+footer{
+    background-color: #232323;
+    color: white;
+}
+
+.col-footer{
+    text-align: left;
+}
+
+.col-footer ul {
+    list-style: none;
+    display: flex;
+}
+
+.col-footer ul li {
+    padding: 20px 5px;
+}
+.col-big{
+    width: 70%;
+}
+
+.col-small{
+    width: 30%;
+    font-size: 20px;
+    padding-left: 280px;
+}
