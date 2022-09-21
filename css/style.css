@@ -6,14 +6,6 @@
 }
 /* DEBUG */
 
-.col{
-    background-color:;
-    
-}
-
-
-
-
 /* COMMON */
 .container{
     max-width: 1450px;
@@ -139,4 +131,68 @@ main{
     display: block;
     max-width: 100%;
 }
+
+/* LABELS */
+
+.labels-percentage{
+    font-weight: bold;
+    top: 80%;
+    position: absolute;
+    padding: 5px 10px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+}
+
+.labels-text{
+    font-weight: bold;
+    top: 80%;
+    left: 13%;
+    position: absolute;
+    padding: 5px 10px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+}
+
+.labels-text-solo{
+    font-weight: bold;
+    top: 80%;
+    position: absolute;
+    padding: 5px 10px;
+    background-color: green;
+    color: #fff;
+    text-align: center;
+}
+
+.heart-off{
+    position: absolute;
+    top: 2%;
+    right: 2%;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+.heart-on{
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 20px;
+    background-color: #fff;
+    font-size: 20px;
+    color: red;
+
+}
+
+.heart-off:hover .heart-on {
+    display: block;
+    
+}
+
+.heart-off:hover .heart-off{
+    display: none;
+}
+
 /* FOOTER */
