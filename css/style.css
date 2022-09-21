@@ -115,6 +115,7 @@ a:hover{
 }
 .row{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     margin: 25px 0;
     justify-content: space-between;
@@ -122,13 +123,15 @@ a:hover{
 }
 
 .col{
-    width: 33.33%;
-    margin: 0 35px;
-
-}
-img{
-    height: 600px;
+    position: relative;
+    width: calc(33.33% - 40px);
+    margin: 30px 20px;
+    max-height: 700px;
 }
 
+.col img{
+    display: block;
+    max-width: 100%;
+}
 
 /* FOOTER */
