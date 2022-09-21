@@ -27,6 +27,7 @@ body{
 
 a {
     text-decoration: none;
+    font-weight: bold;
     color: white;
 }
 
@@ -45,11 +46,12 @@ a:hover{
 .header-top{
     padding: 20px 0;
     background-color: #FF6900;
-    /* position: fixed;
+    position: fixed;
     top: 0;
     left: 0;
-    right: 0; */
+    right: 0;
     box-shadow: rgb(36, 52, 70) 0px 1px 2px 0px;
+    z-index: 100;
 }
 
 .col-header{
@@ -102,6 +104,10 @@ a:hover{
     text-decoration: none;
 }
 /* MAIN */
+main{
+    padding-top: 80px;
+}
+
 .new-price, .old-price{
     display: inline-block;
 }
@@ -133,5 +139,4 @@ a:hover{
     display: block;
     max-width: 100%;
 }
-
 /* FOOTER */
